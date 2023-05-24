@@ -1,0 +1,265 @@
+.content {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-family: 'Circular', 'Helvetica Neue', Arial, sans-serif;
+  }
+  
+  .post {
+    width: 45%;
+    box-shadow: 0px 0px 8px 2px rgb(245, 245, 245);
+    margin-top: 20px;
+  }
+  
+  .post-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  
+  .post-header-info-pic {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+  
+  .post-header-info {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .post-header-info-spec {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .post-header-info-spec-word {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .post-header-info-spec-word-name {
+    color: rgb(149, 210, 247);
+    margin-right: 2px;
+    font-size: 0.7em;
+    font-weight: 520;
+  }
+
+  .post-header-info-spec-word-etc {
+    font-size: 0.7em
+  }
+  
+  .post-header-info-spec-timeline {
+    color: darkgrey;
+    font-size: 0.6em;
+  }
+  
+  .post-header-option {
+    width: 12px;
+    height: 12px;
+    object-fit: cover;
+  }
+  
+  .post-body {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+  }
+  
+  .post-body-caption {
+    margin: 5px 0px;
+    font-size: 0.8em;
+  }
+  
+  .post-body-picture {
+    margin: 15px 0px;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .post-body-engg {
+    display: flex;
+    flex-direction: row;
+    color: darkgray;
+    font-size: 0.6em;
+  }
+  
+  .post-body-engg-like {
+    display: flex;
+    flex-direction: row;
+    margin-right: 5px;
+    align-items: center;
+  }
+  
+  .post-body-engg-icon {
+    width: 12px;
+    height: 12px;
+    object-fit: cover;
+    margin-right: 4px;
+  }
+  
+  .post-body-engg-letter {
+    margin-right: 15px;
+  }
+  
+  .post-footer {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(245, 245, 245);
+    padding: 10px;
+  }
+  
+  .post-footer-comment {
+    margin-bottom: 10px;
+  }
+  
+  .post-footer-comment-picture {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+
+  .post-footer-comment-info-person{
+    font-size: 0.7em;
+  }
+  
+  .post-footer-comment-info-person-name {
+    margin-right: 3px;
+    font-weight: 550;
+  }
+  
+  .post-footer-comment-info-person-date {
+    color: darkgray;
+  }
+  
+  .post-footer-comment-info-caption {
+    margin-bottom: 5px;
+    font-size: 0.65em;
+  }
+  
+  .post-footer-totalcomments {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+  }
+
+  .post-footer-totalcomments-word{
+    font-size: 0.7em;
+    font-weight: 500;
+  }
+  
+  .post-footer-mycomment-picture {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 10px;
+  }
+  
+  .post-footer-totalcomments {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .post-footer-totalcomments-word {
+    margin-right: 3px;
+  }
+
+  .post-footer-totalcomments-img{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 5px;
+  }
+  
+  .post-footer-comment {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .post-footer-comment-info-person {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .post-footer-comment-info-person-name{
+    margin-right: 5px;
+  }
+  
+  .post-footer-comment-info-reply {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .post-footer-comment-info-reply-word {
+    margin:5px 10px 5px 0px;
+    font-weight: 550;
+    font-size: 0.6em;
+    font-weight: 600;
+    color: rgb(149, 210, 237);
+  }
+
+  .post-footer-comment-info-reply-img{
+    width: 9px;
+    height: 9px;
+    object-fit: cover;
+}
+
+.post-footer-mycomment {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.post-footer-mycomment-box {
+    flex-grow: 1;
+  }
+
+.post-footer-mycomment-box-textbox{
+    width: 100%;
+    /* border: 0px solid #ddd; */
+    border-radius: 4px;
+    padding: 0px;
+    margin-bottom: 10px;
+}
+
+.post-footer-mycomment-box-textbox textarea {
+    width: 100%;
+    border: none;
+    resize: none;
+    outline: none;
+}
+
+.post-footer-mycomment-box-textbox textarea:focus {
+    box-shadow: 0 0 3px #bbb;
+}
+
+.post-footer-mycomment-box-button{
+    background-color: #66b3ff;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    border-radius: 4px;
+}
+
+.post-footer-mycomment-box-button:hover{
+    background-color: #3385ff;
+}
+
+.post-footer-mycomment-box-button:focus{
+    outline: none;
+}
